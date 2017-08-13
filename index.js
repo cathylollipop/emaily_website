@@ -4,7 +4,7 @@ const app = express(); // app is an Expree App to register this route handler wi
 
 // a route handler - get post put(update all the properties of something) delete patch(update one or two properties of something)
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
+    res.send({ bye: 'buddy' });
 });
 
 const PORT = process.env.PORT || 5000;
