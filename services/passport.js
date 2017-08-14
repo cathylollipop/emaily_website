@@ -22,7 +22,8 @@ passport.use(
     new GoogleStrategy({
             clientID: keys.googleClientID,
             clientSecret: keys.googleClientSecret,
-            callbackURL: '/auth/google/callback'
+            callbackURL: '/auth/google/callback', // use relative path
+            proxy: true // make google strategy trust proxy and not to change https to http and gives an error
         },
         (accessToken, refreshToken, profile, done) => {
             // initiates a query to see if the DB has this profile already
