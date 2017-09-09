@@ -8,7 +8,7 @@
 
 ** Instructions on how to use the emaily website **
 * Login to the website by authorizing your Google account.
-* You won't be able to create surveys if you have no credits. Clicke "ADD CREDITS" button to make a payment.
+* You won't be able to create surveys if you have no credits. Click "ADD CREDITS" button to make a payment.
 * Put a random valid email (**@**.com), MM/YY and CVC number.
 * Credit card number: 4242 4242 4242 4242.
 * When you have credits, click + button at the right bottom of the page and you'll be able to create your own survey.
